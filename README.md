@@ -1,0 +1,3 @@
+# Unhandled Database Errors in Express.js Route Handler
+
+This repository demonstrates a common error in Express.js applications: missing error handling when interacting with databases.  The `bug.js` file shows an example of a route handler that fetches user data. If the database operation fails, there's no error handling, leading to unexpected behavior and potential crashes.  The `bugSolution.js` file provides the corrected code with proper error handling.
